@@ -1,3 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title><%= @page_title||"Article" %></title>
+	<%= stylesheet_link_tag    "application" %>
+    <%= javascript_include_tag "application" %>
+</head>
+<body class="metro">
 <p>
   <strong>Title:</strong>
   <%= @article.title %>
@@ -9,3 +17,5 @@
 </p>
 
 <%= link_to 'Back', articles_path %>|<%= link_to 'Edit', edit_article_path(@article) %>
+</body>
+</html>

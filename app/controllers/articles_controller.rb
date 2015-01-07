@@ -26,6 +26,7 @@ class ArticlesController < ApplicationController
 
 	def show
 	  @article = Article.find(params[:id])
+	  @page_title = @article.title
 	end
 
 	def edit
@@ -42,6 +43,7 @@ class ArticlesController < ApplicationController
 
 	def index
 		@articles = Article.all
+		#@articles = Article.page(params[:page]).per(5)
 	end
 	private
 	  def article_params
