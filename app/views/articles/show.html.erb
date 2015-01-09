@@ -13,7 +13,10 @@
  
 <p>
   <strong>Text:</strong>
-  <%= @article.text %>
+  <text>
+  <pre id=showtext><%= @article.text %></pre>
+  </text>
+  
 </p>
 
 <%= link_to 'Back', articles_path %>|<%= link_to 'Edit', edit_article_path(@article) %>

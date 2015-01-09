@@ -1,0 +1,37 @@
+p#allart,p#hot24
+{
+	font-size: 20px;
+	text-align: center;
+	color: white;
+	background-color: #0072c6
+}
+
+p，div
+{
+	margin:  0px;
+	padding: 100px;
+	text-align: center;
+	border: solid 1px #c3c3c3;
+}
+
+div#hot24
+{
+	
+
+}
+div#allart
+{
+	display: none;
+}
+h1#indexhdr
+{
+	text-align: center;
+	font-size: 28px;
+}
+
+pre#showtext
+{
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+}

@@ -6,17 +6,19 @@
 </head>
 
 <body class="metro">
-<h1>Listing articles</h1>
+<h1 id="indexhdr">Index Page(here to insert template)</h1>
+<p id="hot24">24 hours Hot</p>
+<div id="hot24">
+  <p>wait for more</p>
+</div>
+<p id="allart">Articles List</p>
+<div id="allart">
 
- 
-
-
-
- <%= link_to 'New article', new_article_path %>
+<%= link_to 'New article', new_article_path %>
 <table>
   <tr>
     <th>Title</th>
-    <th>Text</th>
+    <th>Act</th>
     <th colspan="2"></th>
   </tr>
  
@@ -31,5 +33,6 @@
     </tr>
   <% end %>
 </table>
+</div>
 </body>
 </html>
